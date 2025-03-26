@@ -10,6 +10,7 @@
     />
     <title>Links website</title>
     <script src="https://unpkg.com/feather-icons"></script>
+
     <style>
       body {
         background: url('https://www.w3schools.com/howto/img_link_tree_template2_bg.jpg'); /* The image used for background */
@@ -77,7 +78,7 @@
       <!-- Image and name container. Change to your pictue here. -->
       <div style="text-align: center">
         <img
-          src="/sitio/assets/superman.jpg"
+          src="https://avatars.githubusercontent.com/u/106186354?v=4"
           class="w3-margin"
           alt="image"
           width="150px"
@@ -88,7 +89,8 @@
           <span
             class="name w3-padding w3-pink w3-round"
             style="font-weight: bolder"
-            >Hola, soy Amin</span
+            id="name"
+            >Hola, no funcionas</span
           >
         </p>
         <p style="font-weight: bolder">¡Mira mis enlaces!</p>
@@ -100,6 +102,7 @@
       </h4>
       <div class="links-container">
         <a
+          id="facebookLink"
           href="#"
           class="w3-button w3-round-xlarge w3-theme-l1 w3-border link"
           target="_blank"
@@ -107,6 +110,7 @@
         >
         <br />
         <a
+          id="instagramUser"
           href="#"
           class="w3-button w3-round-xlarge w3-theme-l1 w3-border link"
           target="_blank"
@@ -114,6 +118,7 @@
         >
         <br />
         <a
+          id="xUser"
           href="#"
           class="w3-button w3-round-xlarge w3-theme-l1 w3-border link"
           target="_blank"
@@ -121,6 +126,7 @@
         >
         <br />
         <a
+          id="githubUser"
           href="#"
           class="w3-button w3-round-xlarge w3-theme-l1 w3-border link"
           target="_blank"
@@ -132,6 +138,7 @@
       <h4 class="margin-top-2" style="text-align: center">MI EXPERIENCIA</h4>
       <div class="links-container">
         <a
+          id="linkedinUser"
           href="#"
           class="w3-button w3-round-xlarge w3-theme-l1 w3-border link"
           target="_blank"
@@ -143,6 +150,7 @@
       <h4 class="margin-top-2" style="text-align: center">MI BLOG</h4>
       <div class="links-container">
         <a
+          id="website"
           href="#"
           class="w3-button w3-round-xlarge w3-theme-l1 w3-border link"
           target="_blank"
@@ -168,7 +176,7 @@
             d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
           ></path>
         </svg>
-        <span style="vertical-align: 7px">
+        <span id="author" style="vertical-align: 7px">
           2023 - Hecho por Miranda Espinoza</span
         >
         <svg
@@ -192,5 +200,6 @@
     <script>
       feather.replace();
     </script>
+    <script type="text/javascript" src="requests.js"></script>
   </body>
 </html>
